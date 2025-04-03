@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/your-repo/ecommerce-frontend.git'
+                git branch: 'master', url: 'https://github.com/vbilahaniya/ecommerce_frontend.git'
             }
         }
 
